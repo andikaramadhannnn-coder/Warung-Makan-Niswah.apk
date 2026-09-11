@@ -1,0 +1,6 @@
+{
+  "name": "Admin Niswah",
+  "description": "Aplikasi Admin Panel Warung Makan Niswah untuk mengelola Menu, Varian, Pilihan, Pesanan, Pelanggan, Pembayaran, Laporan, dan Dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

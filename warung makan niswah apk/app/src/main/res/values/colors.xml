@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_orange">#E87518</color>
+    <color name="primary_orange_dark">#D76510</color>
+    <color name="accent_amber">#FFB000</color>
+    <color name="bg_light">#FFFDF9</color>
+    <color name="surface_card">#FFFFFF</color>
+</resources>
