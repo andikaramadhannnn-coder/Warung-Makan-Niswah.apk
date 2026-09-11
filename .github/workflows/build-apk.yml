@@ -28,6 +28,20 @@ jobs:
         with:
           gradle-version: '9.3.1'
 
+      - name: Create debug keystore
+        working-directory: ./warung makan niswah apk
+        run: |
+          keytool -genkeypair \
+            -v \
+            -keystore debug.keystore \
+            -storepass android \
+            -alias androiddebugkey \
+            -keypass androiddebugkey \
+            -keyalg RSA \
+            -keysize 2048 \
+            -validity 10000 \
+            -dname "CN=Android Debug,O=Android,C=US"
+
       - name: Build Debug APK
         working-directory: ./warung makan niswah apk
         run: gradle assembleDebug
